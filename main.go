@@ -9,7 +9,7 @@ import (
 func main() {
 	hmacSampleSecret := []byte("secret")
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
-		"email": "juancarlos.roman@globant.com",
+		"email": "mail@sample.com",
 	})
 
 	tokenString, _ := token.SignedString(hmacSampleSecret)
