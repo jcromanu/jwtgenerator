@@ -15,4 +15,5 @@ func main() {
 	tokenString, _ := token.SignedString(hmacSampleSecret)
 
 	fmt.Println(tokenString)
+	// test
 }
